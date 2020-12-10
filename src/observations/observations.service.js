@@ -1,13 +1,13 @@
 const knex = require("../db/connection");
 
-const observations = knex("observations");
+const tableName = "observations";
 
 function create(newObservation) {
-  return observations.insert(newObservation).returning("*");
+  return knex(tableName).insert(newObservation, "*");
 }
 
-async function list() {
-  return observations.select("*");
+function list() {
+  return knex(tableName).select();
 }
 
 module.exports = {
