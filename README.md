@@ -1,20 +1,18 @@
 # WeatherZen Backend Application
 
-
 This starter code for the "Connecting it all" module in the Thinkful curriculum.
 
 ## Existing files
 
 As you work through the Node.js, Express & PostgreSQL module, you will be writing code that allows your controllers to connect to and query your PostgreSQL database via [Knex](http://knexjs.org/). The table below describes the files and folders in the starter code:
 
-| Folder/file path                 | Description                                                                                                           |
-| -------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| `src/app.js`                     | Directs requests to the appropriate routers.                                                                          |
-| `src/server.js`                  | Starts the server on `localhost:5000` by default.                                                                     |
-| `src/db/`                        | A folder where you will add migration and seed files for your database later on.                                      |
-| `src/errors/`                    | A folder where you will find several functions for handle various errors                                   |
-| `.env.sample`                    | A sample environment configuration file                                                                               |
-
+| Folder/file path | Description                                                                      |
+| ---------------- | -------------------------------------------------------------------------------- |
+| `src/app.js`     | Directs requests to the appropriate routers.                                     |
+| `src/server.js`  | Starts the server on `localhost:5000` by default.                                |
+| `src/db/`        | A folder where you will add migration and seed files for your database later on. |
+| `src/errors/`    | A folder where you will find several functions for handle various errors         |
+| `.env.sample`    | A sample environment configuration file                                          |
 
 This starter code closely follows the best practices and patterns established in the Robust Server Structure module.
 

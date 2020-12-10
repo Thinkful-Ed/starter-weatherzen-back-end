@@ -1,0 +1,23 @@
+[
+  {
+    "latitude": 0,
+    "longitude": 0,
+    "sky_condition": 100,
+    "created_at": "2020-12-10T08:30:32.326Z",
+    "updated_at": "2020-12-10T08:30:32.326Z"
+  },
+  {
+    "latitude": 0,
+    "longitude": 0,
+    "sky_condition": 101,
+    "created_at": "2020-12-10T08:31:32.326Z",
+    "updated_at": "2020-12-10T08:31:32.326Z"
+  },
+  {
+    "latitude": 0,
+    "longitude": 0,
+    "sky_condition": 109,
+    "created_at": "2020-12-10T08:32:32.326Z",
+    "updated_at": "2020-12-10T08:32:32.326Z"
+  }
+]
