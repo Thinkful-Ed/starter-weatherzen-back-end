@@ -20,14 +20,14 @@ This starter code closely follows the best practices and patterns established in
 
 ## Database setup
 
-1. Set up a new ElephantSQL database instance by following the instructions in the "PostgreSQL: Creating & Deleting Databases" checkpoint.
+1. Set up a new database instance by following the instructions in the "PostgreSQL: Creating & Deleting Databases" checkpoint.
 1. After setting up your database instance, connect DBeaver to your new database instance by following the instructions in the "PostgreSQL: Installing DBeaver" checkpoint.
 
 ## Installation
 
 1. Fork and clone this repository.
 1. Run `cp .env.sample .env`.
-1. Update your `.env` file with a connection URL to your ElephantSQL database instance.
+1. Update your `.env` file with a connection URL to your database instance.
 1. Run `npm install` to install project dependencies.
 1. Run `npm run start:dev` to start your server in development mode.
 
